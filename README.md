@@ -14,10 +14,16 @@
 - Importar as migrations:
 - [x] `npx knex migrate:latest`
 
-- Criação de Seeds:
+- Criação de Seeds para users:
 - [x] `npx knex seed:make 001_users`
 
-- Importar Seeds:
-- [x] `npx knex seed:run`
+- Importar Seeds 001_users.js:
+- [x] `npx knex seed:make 001_users.js`
+
+- Criação de Seeds para projects:
+- [x] ``
+
+- Importar Seeds projects.js
+- [x] `npx knex seed:make 002_projects`
 
 - Organização de responsabilidades para rotas e controllers.
