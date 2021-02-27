@@ -18,12 +18,30 @@
 - [x] `npx knex seed:make 001_users`
 
 - Importar Seeds 001_users.js:
-- [x] `npx knex seed:make 001_users.js`
+- [x] `npx knex seed:run --specific 001_users.js`
 
 - Criação de Seeds para projects:
-- [x] ``
+- [x] `npx knex seed:make 002_projects`
 
 - Importar Seeds projects.js
-- [x] `npx knex seed:make 002_projects`
+- [x] `npx knex seed:run --specific 002_projects.js`
+
+- Realizando peginação dos projetos via rotas
+
+- Criação de nova migration para adicionar coluna
+- [x] `npx knex migrate:make add_column_delete_at_to_users`
+
+- Importar as migrations:
+- [x] `npx knex migrate:latest`
+
+- Criação de nova migration para procedures:
+- [x] `npx knex migrate:make add_custom_functions`
+
+- [x] `npx knex migrate:rollback --all`
+
+- Importar as migrations:
+- [x] `npx knex migrate:latest`
+
+--
 
 - Organização de responsabilidades para rotas e controllers.
